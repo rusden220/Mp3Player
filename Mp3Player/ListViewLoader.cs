@@ -2,13 +2,14 @@
 using System.IO;
 using System.Windows.Forms;
 using System.Threading;
+using Mp3Player.UI;
 
 namespace Mp3Player
 {
 	/// <summary>
 	/// Loader for loading data from 
 	/// </summary>
-	public class ListViewLoader: IDisposable
+	public class ListViewLoader: IDisposable, ILoader
 	{
 		private ListView _listViewLoaded;		
 		private Thread _threadLoadAsinc;
@@ -50,8 +51,7 @@ namespace Mp3Player
 			}
 			return lvi;
 		}
-
-		public ListView Load()
+		public void Load()
 		{
 			LogWriter.WriteLog("start to load a data");
 			try
@@ -63,7 +63,7 @@ namespace Mp3Player
 					lvItem.Tag = fi;
 					_listViewLoaded.Items.Add(lvItem);
 				}
-				return _listViewLoaded;
+				//return _listViewLoaded;
 			}
 			catch (Exception ex)
 			{

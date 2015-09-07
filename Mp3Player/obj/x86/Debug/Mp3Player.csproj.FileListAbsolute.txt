@@ -1,0 +1,13 @@
+D:\Den\Programming\C#\Mp3Player\Mp3Player\bin\x86\Debug\Mp3Player.exe.config
+D:\Den\Programming\C#\Mp3Player\Mp3Player\bin\x86\Debug\Mp3Player.exe
+D:\Den\Programming\C#\Mp3Player\Mp3Player\bin\x86\Debug\Mp3Player.pdb
+D:\Den\Programming\C#\Mp3Player\Mp3Player\bin\x86\Debug\NAudio.dll
+D:\Den\Programming\C#\Mp3Player\Mp3Player\bin\x86\Debug\NAudio.xml
+D:\Den\Programming\C#\Mp3Player\Mp3Player\obj\x86\Debug\Mp3Player.MainForm.resources
+D:\Den\Programming\C#\Mp3Player\Mp3Player\obj\x86\Debug\Mp3Player.Properties.Resources.resources
+D:\Den\Programming\C#\Mp3Player\Mp3Player\obj\x86\Debug\Mp3Player.csproj.GenerateResource.Cache
+D:\Den\Programming\C#\Mp3Player\Mp3Player\obj\x86\Debug\Mp3Player.exe
+D:\Den\Programming\C#\Mp3Player\Mp3Player\obj\x86\Debug\Mp3Player.pdb
+D:\Den\Programming\C#\Mp3Player\Build\Mp3Player.exe.config
+D:\Den\Programming\C#\Mp3Player\Build\Mp3Player.exe
+D:\Den\Programming\C#\Mp3Player\Build\Mp3Player.pdb

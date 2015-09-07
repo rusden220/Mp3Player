@@ -1,0 +1,46 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Items><!--main Elem-->
+	<Item name="File">
+		<Handler type ="cs" value="Mp3Player.UI.MainMenuStrip.MainMenuFile"/>
+	</Item>
+	<Item name="Function">
+		<Handler type ="cs" value="Mp3Player.UI.MainMenuStrip.MainMenuFunction"/>
+			<Item name="Play">
+				<Handler type ="cs" value="Mp3Player.UI.MainMenuStrip.MainMenuFunction"/>
+			</Item>
+			<Item name="Pause">
+				<Handler type ="cs" value="Mp3Player.UI.MainMenuStrip.MainMenuFunction"/>
+				<Item name="Stop">
+					<Handler type ="cs" value="Mp3Player.UI.MainMenuStrip.MainMenuFunction"/>
+				</Item>
+				<Item name="PausePause">
+					<Handler type ="cs" value="System.Windows.Forms.ToolStripMenuItem"
+									 namespace="System.Windows.Forms"
+									 version="4.0.0.0"
+									 culture="neutral"
+									 publickeytoken="b77a5c561934e089"
+									 />
+				</Item>
+			</Item>
+	</Item>
+	<Item name="Plugins">
+		<Handler type ="cs" value="Mp3Player.UI.MainMenuStrip.MainMenuPlugins"/>
+	</Item>
+	<Item name="About">
+		<Handler type ="cs" value="Mp3Player.UI.MainMenuStrip.MainMenuAbout"/>
+	</Item>
+</Items>
+
+<!-- value it is class name for handler-->
+<!--type it's type of file e.g.
+																		cs - C#
+																		js - JavaScript -->
+<!--for another dll should use this-->
+<!--
+		<Handler value="Mp3Player.UI.MainMenuStrip.MainMenuFunction"
+						 namespace="Mp3Player"
+						 version="1.0.1.0"
+						 culture="neutral"
+						 publickeytoken="null"
+						 />
+		-->

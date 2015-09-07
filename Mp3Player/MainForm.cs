@@ -3,6 +3,9 @@ using System.Windows.Forms;
 using System.IO;
 using NAudio;
 using NAudio.Wave;
+using System.Collections.Generic;
+
+using Mp3Player.UI.MainMenuStrip;
 
 namespace Mp3Player
 {
@@ -11,6 +14,9 @@ namespace Mp3Player
 		private bool _isPlay;
 		private ListViewLoader _listViewLoadr;
 		private WaveOut _waveOut;
+		private MainMenuLoader _mainMenuLoader;
+
+		
 		
 		public MainForm()
 		{
@@ -30,6 +36,8 @@ namespace Mp3Player
 				return new object[]{fileInfo.Name, fileInfo.Extension}; });
 			_listViewLoadr.Load();
 
+			_mainMenuLoader = new MainMenuLoader(this.MainMenu);
+			_mainMenuLoader.Load();
 			_waveOut = new WaveOut();
 		}
 

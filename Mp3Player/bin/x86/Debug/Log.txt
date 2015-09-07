@@ -1,0 +1,18 @@
+﻿07.09.2015 10:33:53 start to load a data
+07.09.2015 10:33:53 ListView data Load error
+Error 	Не удалось найти часть пути "D:\Den\Programming\C#\Mp3Player\Mp3Player\bin\x86\Debug\example".
+	mscorlib
+	   в System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   в System.IO.FileSystemEnumerableIterator`1.CommonInit()
+   в System.IO.FileSystemEnumerableIterator`1..ctor(String path, String originalUserPath, String searchPattern, SearchOption searchOption, SearchResultHandler`1 resultHandler, Boolean checkHost)
+   в System.IO.Directory.GetFiles(String path)
+   в Mp3Player.ListViewLoader.Load() в d:\Den\Programming\C#\Mp3Player\Mp3Player\ListViewLoader.cs:строка 59
+07.09.2015 10:34:07 start to load a data
+07.09.2015 10:34:07 ListView data Load error
+Error 	Не удалось найти часть пути "D:\Den\Programming\C#\Mp3Player\Mp3Player\bin\x86\Debug\example".
+	mscorlib
+	   в System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   в System.IO.FileSystemEnumerableIterator`1.CommonInit()
+   в System.IO.FileSystemEnumerableIterator`1..ctor(String path, String originalUserPath, String searchPattern, SearchOption searchOption, SearchResultHandler`1 resultHandler, Boolean checkHost)
+   в System.IO.Directory.GetFiles(String path)
+   в Mp3Player.ListViewLoader.Load() в d:\Den\Programming\C#\Mp3Player\Mp3Player\ListViewLoader.cs:строка 59
