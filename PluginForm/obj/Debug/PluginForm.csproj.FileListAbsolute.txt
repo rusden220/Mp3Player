@@ -1,0 +1,17 @@
+D:\Den\Programming\C#\Mp3Player\PluginForm\bin\Debug\PluginForm.exe.config
+D:\Den\Programming\C#\Mp3Player\PluginForm\bin\Debug\PluginForm.exe
+D:\Den\Programming\C#\Mp3Player\PluginForm\bin\Debug\PluginForm.pdb
+D:\Den\Programming\C#\Mp3Player\PluginForm\obj\Debug\PluginWindow.baml
+D:\Den\Programming\C#\Mp3Player\PluginForm\obj\Debug\PluginWindow.g.cs
+D:\Den\Programming\C#\Mp3Player\PluginForm\obj\Debug\App.g.cs
+D:\Den\Programming\C#\Mp3Player\PluginForm\obj\Debug\PluginForm_MarkupCompile.cache
+D:\Den\Programming\C#\Mp3Player\PluginForm\obj\Debug\PluginForm.g.resources
+D:\Den\Programming\C#\Mp3Player\PluginForm\obj\Debug\PluginForm.Properties.Resources.resources
+D:\Den\Programming\C#\Mp3Player\PluginForm\obj\Debug\PluginForm.csproj.GenerateResource.Cache
+D:\Den\Programming\C#\Mp3Player\PluginForm\obj\Debug\PluginForm.exe
+D:\Den\Programming\C#\Mp3Player\PluginForm\obj\Debug\PluginForm.pdb
+D:\Den\Programming\C#\Mp3Player\PluginForm\obj\Debug\PluginForm.csprojResolveAssemblyReference.cache
+D:\Den\Programming\C#\Mp3Player\Build\PluginForm.exe.config
+D:\Den\Programming\C#\Mp3Player\Build\PluginForm.exe
+D:\Den\Programming\C#\Mp3Player\Build\PluginForm.pdb
+D:\Den\Programming\C#\Mp3Player\Build\PluginWindow.xaml.cs

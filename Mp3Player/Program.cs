@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using Noesis.Javascript;
 
 namespace Mp3Player
 {
@@ -19,10 +20,11 @@ namespace Mp3Player
 		/// </summary>
 		[STAThread]
 		static void Main()
-		{			
+		{
 			_mainForm = new Mp3Player.MainForm();
 			Application.EnableVisualStyles();
 			//Application.SetCompatibleTextRenderingDefault(false);
+			
 			Application.Run(_mainForm);
 		}
 	}

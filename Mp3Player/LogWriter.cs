@@ -13,7 +13,7 @@ namespace Mp3Player
 	class LogWriter
 	{
 		private static string _errorMessage = "Error ";
-		private static string _fileName = "Log.txt";
+		private static string _fileName = "Mp3Player.log";
 		private static Encoding _encoding = Encoding.UTF8;
 		public static bool WriteLog(string message)
 		{

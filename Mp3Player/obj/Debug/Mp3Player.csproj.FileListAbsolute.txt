@@ -12,3 +12,4 @@ D:\Den\Programming\C#\Mp3Player\Mp3Player\obj\Debug\Mp3Player.pdb
 D:\Den\Programming\C#\Mp3Player\Build\Mp3Player.exe.config
 D:\Den\Programming\C#\Mp3Player\Build\Mp3Player.exe
 D:\Den\Programming\C#\Mp3Player\Build\Mp3Player.pdb
+D:\Den\Programming\C#\Mp3Player\Build\PluginWindow.xaml.cs

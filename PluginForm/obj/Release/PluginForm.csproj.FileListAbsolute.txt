@@ -1,0 +1,13 @@
+D:\Den\Programming\C#\Mp3Player\Build\PluginForm.exe.config
+D:\Den\Programming\C#\Mp3Player\Build\PluginForm.exe
+D:\Den\Programming\C#\Mp3Player\Build\PluginForm.pdb
+D:\Den\Programming\C#\Mp3Player\PluginForm\obj\Release\App.g.cs
+D:\Den\Programming\C#\Mp3Player\PluginForm\obj\Release\PluginForm_MarkupCompile.cache
+D:\Den\Programming\C#\Mp3Player\PluginForm\obj\Release\PluginForm.Properties.Resources.resources
+D:\Den\Programming\C#\Mp3Player\PluginForm\obj\Release\PluginForm.csproj.GenerateResource.Cache
+D:\Den\Programming\C#\Mp3Player\PluginForm\obj\Release\PluginForm.exe
+D:\Den\Programming\C#\Mp3Player\PluginForm\obj\Release\PluginForm.pdb
+D:\Den\Programming\C#\Mp3Player\Build\PluginWindow.xaml.cs
+D:\Den\Programming\C#\Mp3Player\PluginForm\obj\Release\PluginWindow.baml
+D:\Den\Programming\C#\Mp3Player\PluginForm\obj\Release\PluginWindow.g.cs
+D:\Den\Programming\C#\Mp3Player\PluginForm\obj\Release\PluginForm.g.resources

@@ -14,9 +14,7 @@ namespace Mp3Player
 		private bool _isPlay;
 		private ListViewLoader _listViewLoadr;
 		private WaveOut _waveOut;
-		private MainMenuLoader _mainMenuLoader;
-
-		
+		private MainMenuLoader _mainMenuLoader;		
 		
 		public MainForm()
 		{

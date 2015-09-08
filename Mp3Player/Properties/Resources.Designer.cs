@@ -64,17 +64,16 @@ namespace Mp3Player.Properties {
         ///   Ищет локализованную строку, похожую на &lt;?xml version=&quot;1.0&quot; encoding=&quot;utf-8&quot; ?&gt;
         ///&lt;Items&gt;&lt;!--main Elem--&gt;
         ///	&lt;Item name=&quot;File&quot;&gt;
-        ///		&lt;!-- value it is class name for handler--&gt;
-        ///		&lt;!--type it&apos;s type of file e.g.
-        ///																		cs - C#
-        ///																		js - JavaScript --&gt;
         ///		&lt;Handler type =&quot;cs&quot; value=&quot;Mp3Player.UI.MainMenuStrip.MainMenuFile&quot;/&gt;
         ///	&lt;/Item&gt;
         ///	&lt;Item name=&quot;Function&quot;&gt;
-        ///		&lt;Handler value=&quot;Mp3Player.UI.MainMenuStrip.MainMenuFunction&quot;/&gt;
-        ///		&lt;SubItem&gt;
+        ///		&lt;Handler type =&quot;cs&quot; value=&quot;Mp3Player.UI.MainMenuStrip.MainMenuFunction&quot;/&gt;
         ///			&lt;Item name=&quot;Play&quot;&gt;
-        ///				&lt;Handler type =&quot;cs&quot; value=&quot;Mp3Player.UI.MainMenuStrip.MainMenuFu [остаток строки не уместился]&quot;;.
+        ///				&lt;Handler type =&quot;cs&quot; value=&quot;Mp3Player.UI.MainMenuStrip.MainMenuFunction&quot;/&gt;
+        ///			&lt;/Item&gt;
+        ///			&lt;Item name=&quot;Pause&quot;&gt;
+        ///				&lt;Handler type =&quot;cs&quot; value=&quot;Mp3Player.UI.MainMenuStrip.MainMenuFunction&quot;/&gt;
+        ///				&lt;Item name=&quot;Stop&quot;&gt;        /// [остаток строки не уместился]&quot;;.
         /// </summary>
         internal static string MainMenu {
             get {

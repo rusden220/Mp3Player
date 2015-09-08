@@ -40,9 +40,9 @@
 			// 
 			// buttonPlayPause
 			// 
-			this.buttonPlayPause.Location = new System.Drawing.Point(12, 12);
+			this.buttonPlayPause.Location = new System.Drawing.Point(3, 3);
 			this.buttonPlayPause.Name = "buttonPlayPause";
-			this.buttonPlayPause.Size = new System.Drawing.Size(75, 23);
+			this.buttonPlayPause.Size = new System.Drawing.Size(47, 23);
 			this.buttonPlayPause.TabIndex = 0;
 			this.buttonPlayPause.Text = "Start";
 			this.buttonPlayPause.UseVisualStyleBackColor = true;
@@ -54,7 +54,7 @@
 			this.listViewMusicCollection.Dock = System.Windows.Forms.DockStyle.Fill;
 			this.listViewMusicCollection.Location = new System.Drawing.Point(0, 0);
 			this.listViewMusicCollection.Name = "listViewMusicCollection";
-			this.listViewMusicCollection.Size = new System.Drawing.Size(327, 284);
+			this.listViewMusicCollection.Size = new System.Drawing.Size(496, 330);
 			this.listViewMusicCollection.TabIndex = 1;
 			this.listViewMusicCollection.UseCompatibleStateImageBehavior = false;
 			this.listViewMusicCollection.DoubleClick += new System.EventHandler(this.listViewMusicCollection_DoubleClick);
@@ -64,16 +64,17 @@
 			this.splitContainer1.Dock = System.Windows.Forms.DockStyle.Fill;
 			this.splitContainer1.Location = new System.Drawing.Point(0, 24);
 			this.splitContainer1.Name = "splitContainer1";
+			this.splitContainer1.Orientation = System.Windows.Forms.Orientation.Horizontal;
 			// 
 			// splitContainer1.Panel1
 			// 
-			this.splitContainer1.Panel1.Controls.Add(this.buttonPlayPause);
+			this.splitContainer1.Panel1.Controls.Add(this.listViewMusicCollection);
 			// 
 			// splitContainer1.Panel2
 			// 
-			this.splitContainer1.Panel2.Controls.Add(this.listViewMusicCollection);
-			this.splitContainer1.Size = new System.Drawing.Size(496, 284);
-			this.splitContainer1.SplitterDistance = 165;
+			this.splitContainer1.Panel2.Controls.Add(this.buttonPlayPause);
+			this.splitContainer1.Size = new System.Drawing.Size(496, 362);
+			this.splitContainer1.SplitterDistance = 330;
 			this.splitContainer1.TabIndex = 2;
 			// 
 			// MainMenu
@@ -88,7 +89,7 @@
 			// 
 			this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
 			this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-			this.ClientSize = new System.Drawing.Size(496, 308);
+			this.ClientSize = new System.Drawing.Size(496, 386);
 			this.Controls.Add(this.splitContainer1);
 			this.Controls.Add(this.MainMenu);
 			this.MainMenuStrip = this.MainMenu;

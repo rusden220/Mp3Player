@@ -25,6 +25,9 @@
 	</Item>
 	<Item name="Plugins">
 		<Handler type ="cs" value="Mp3Player.UI.MainMenuStrip.MainMenuPlugins"/>
+		<Item name="Show Plugins">
+			<Handler type ="cs" value="Mp3Player.UI.MainMenuStrip.MainMenuShowPlugins"/>
+		</Item>
 	</Item>
 	<Item name="About">
 		<Handler type ="cs" value="Mp3Player.UI.MainMenuStrip.MainMenuAbout"/>

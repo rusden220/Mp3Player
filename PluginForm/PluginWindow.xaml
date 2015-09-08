@@ -1,0 +1,78 @@
+﻿<Window x:Class="PluginForm.PluginWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="PluginWindow" Height="350" Width="525">
+	<Grid>
+		<DockPanel Grid.Row="0" Height="Auto" Width="Auto">
+			<Menu DockPanel.Dock="Top" Name="mainMenu">
+				<MenuItem Name="menuItemAdd" ToolTip="Add new plug-ins" Click="MenuItemAdd_Click">
+					<MenuItem.Icon>
+						<Image Source="Resources/Add.png"/>
+					</MenuItem.Icon>
+				</MenuItem>
+				<MenuItem Name="menuItemPlay" ToolTip="Start plug-in" Click="MenuItemPlay_Click">
+					<MenuItem.Icon>
+						<Image Source="Resources/Play.png" />
+					</MenuItem.Icon>
+				</MenuItem>
+				<MenuItem Name="menuItemPause" ToolTip="Stop plug-ins" Click="MenuItemPause_Click">
+					<MenuItem.Icon>
+						<Image Source="Resources/Pause.png" />
+					</MenuItem.Icon>
+				</MenuItem>
+				<MenuItem Name="menuItemClear" ToolTip="Remove plug-ins" Click="MenuItemClear_Click">
+					<MenuItem.Icon >
+						<Image Source="Resources/Clear.png" />
+					</MenuItem.Icon>
+				</MenuItem>
+			</Menu>
+			<ListView Name="listViewPlugins"
+					  x:FieldModifier="private"
+					  BorderThickness="0,0,0,0"
+					  BorderBrush="Gray"
+					  Height="Auto"
+					  Width="Auto">
+				<!--<ListView.ItemContainerStyle>
+					<Style TargetType="ListViewItem">
+						<Setter Property="HorizontalContentAlignment" Value="Stretch"/>
+						<Setter Property="VerticalContentAlignment"  Value="Stretch"/>
+					</Style>
+				</ListView.ItemContainerStyle>
+				<ListView.View>
+					<GridView>
+						<GridView.Columns>
+							<GridViewColumn Header="Name" Width="auto">
+								<GridViewColumn.CellTemplate>
+									<DataTemplate>
+										<Border BorderBrush="Gray" BorderThickness=".5" Margin="-6,-3">
+											<TextBlock Text="{Binding Name}" Margin="6,3"/>
+										</Border>
+									</DataTemplate>
+								</GridViewColumn.CellTemplate>
+							</GridViewColumn>
+							<GridViewColumn Header="Status" >
+								<GridViewColumn.CellTemplate>
+									<DataTemplate>
+										<Border BorderBrush="Gray" BorderThickness="0" Margin="-6,-3">
+											<TextBlock Text="{Binding Status}" Margin="6,3"/>
+										</Border>
+									</DataTemplate>
+								</GridViewColumn.CellTemplate>
+							</GridViewColumn>
+							<GridViewColumn Header="EventStart" >
+								<GridViewColumn.CellTemplate>
+									<DataTemplate>
+										<Border BorderBrush="Gray" BorderThickness=".5" Margin ="-6,-3">
+											<TextBlock Text="{Binding EventStart}" Margin="6,3"/>
+										</Border>
+									</DataTemplate>
+								</GridViewColumn.CellTemplate>
+							</GridViewColumn>
+						</GridView.Columns>
+					</GridView>
+				</ListView.View>-->
+			</ListView>
+		</DockPanel>
+		
+	</Grid>
+</Window>
