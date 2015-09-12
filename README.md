@@ -4,3 +4,4 @@ I want to make:
 * a synchronization music from a computer to smart phone
 * collection of statistics for Last.fm
 * download a matadata from last.fm for a music files
+* run js plug-ins
