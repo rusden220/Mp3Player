@@ -11,3 +11,4 @@ D:\Den\Programming\C#\Mp3Player\Build\PluginWindow.xaml.cs
 D:\Den\Programming\C#\Mp3Player\PluginForm\obj\Release\PluginWindow.baml
 D:\Den\Programming\C#\Mp3Player\PluginForm\obj\Release\PluginWindow.g.cs
 D:\Den\Programming\C#\Mp3Player\PluginForm\obj\Release\PluginForm.g.resources
+D:\Den\Programming\C#\Mp3Player\PluginForm\obj\Release\PluginForm.csprojResolveAssemblyReference.cache

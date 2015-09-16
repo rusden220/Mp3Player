@@ -18,16 +18,26 @@ namespace Mp3Player
 		
 		public MainForm()
 		{
+			var start = DateTime.Now.Millisecond;
 			InitializeComponent();
 
+			this.DoubleBuffered = true;
+			
 			_isPlay = false;
 			listViewMusicCollection.View = View.Details;
 			listViewMusicCollection.AllowColumnReorder = true;
 			listViewMusicCollection.GridLines = false;
-			listViewMusicCollection.Columns.Add("№");
-			listViewMusicCollection.Columns.Add("Name");
+			//listViewMusicCollection.Columns.Add("№");
+			listViewMusicCollection.Columns.Add("File Name");
 			listViewMusicCollection.Columns.Add("Extension");
+			listViewMusicCollection.Columns.Add("asd");
+			listViewMusicCollection.Columns.Add("12423");			
 
+			listViewMusicCollection.AllowDrop = true;
+			listViewMusicCollection.DragDrop += listViewMusicCollection_DragDrop;
+			listViewMusicCollection.DragEnter += listViewMusicCollection_DragEnter;
+
+			
 			_listViewLoadr = new ListViewLoader(listViewMusicCollection);
 			_listViewLoadr.DirectoryPath = @"example\";
 			_listViewLoadr.GetItemToWrite = new ListViewLoader.GetItemDelegat( (fileInfo) => {
@@ -37,8 +47,32 @@ namespace Mp3Player
 			_mainMenuLoader = new MainMenuLoader(this.MainMenu);
 			_mainMenuLoader.Load();
 			_waveOut = new WaveOut();
+			var tt = DateTime.Now.Millisecond - start;
+			System.Diagnostics.Debug.WriteLine(tt);
 		}
 
+		
+
+		void listViewMusicCollection_DragEnter(object sender, DragEventArgs e)
+		{
+			 e.Effect = DragDropEffects.Link;
+			//throw new NotImplementedException();
+		}
+
+		void listViewMusicCollection_DragDrop(object sender, DragEventArgs e)
+		{
+			object obj = e.Data.GetData("FileDrop");
+			ListViewSetData((string[])obj);
+		}
+		private void ListViewSetData(string[] array)
+		{
+			ListViewItem[] lvi = new ListViewItem[array.Length];
+			for (int i = 0; i < array.Length; i++)
+			{
+				lvi[i] = _listViewLoadr.ItemWriter(Path.GetFileName(array[i]), i.ToString());
+			}
+			listViewMusicCollection.Items.AddRange(lvi);
+		}
 		private void buttonPlayPause_Click(object sender, EventArgs e)
 		{
 			if (_isPlay)

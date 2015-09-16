@@ -1,0 +1,5 @@
+D:\Den\Programming\C#\Mp3Player\LastFm\bin\Debug\LastFm.dll
+D:\Den\Programming\C#\Mp3Player\LastFm\bin\Debug\LastFm.pdb
+D:\Den\Programming\C#\Mp3Player\LastFm\obj\Debug\LastFm.csprojResolveAssemblyReference.cache
+D:\Den\Programming\C#\Mp3Player\LastFm\obj\Debug\LastFm.dll
+D:\Den\Programming\C#\Mp3Player\LastFm\obj\Debug\LastFm.pdb

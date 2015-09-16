@@ -43,12 +43,15 @@ namespace Mp3Player
 
 		public ListViewItem ItemWriter(params object[] obj)
 		{
-			ListViewItem lvi = new ListViewItem(_countAdded++.ToString());
-			//check null value
-			foreach (var item in obj)
+			ListViewItem lvi = null;
+			if (obj != null && obj.Length != 0)
 			{
-				lvi.SubItems.Add(item.ToString());				
-			}
+				lvi = new ListViewItem(obj[0].ToString());
+				for (int i = 1; i < obj.Length; i++)
+				{
+					lvi.SubItems.Add(obj[i].ToString());	
+				}
+			}			
 			return lvi;
 		}
 		public void Load()

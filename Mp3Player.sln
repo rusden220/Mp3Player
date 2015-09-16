@@ -7,6 +7,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Mp3Player", "Mp3Player\Mp3P
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PluginForm", "PluginForm\PluginForm.csproj", "{9147AEF6-5CC2-493F-A2DE-855F9478B3EC}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LastFm", "LastFm\LastFm.csproj", "{C9239549-2D45-49ED-A827-494DA0BF582E}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -37,6 +39,14 @@ Global
 		{9147AEF6-5CC2-493F-A2DE-855F9478B3EC}.Release|Any CPU.Build.0 = Release|Any CPU
 		{9147AEF6-5CC2-493F-A2DE-855F9478B3EC}.Release|x64.ActiveCfg = Release|Any CPU
 		{9147AEF6-5CC2-493F-A2DE-855F9478B3EC}.Release|x86.ActiveCfg = Release|Any CPU
+		{C9239549-2D45-49ED-A827-494DA0BF582E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C9239549-2D45-49ED-A827-494DA0BF582E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C9239549-2D45-49ED-A827-494DA0BF582E}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{C9239549-2D45-49ED-A827-494DA0BF582E}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{C9239549-2D45-49ED-A827-494DA0BF582E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C9239549-2D45-49ED-A827-494DA0BF582E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C9239549-2D45-49ED-A827-494DA0BF582E}.Release|x64.ActiveCfg = Release|Any CPU
+		{C9239549-2D45-49ED-A827-494DA0BF582E}.Release|x86.ActiveCfg = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

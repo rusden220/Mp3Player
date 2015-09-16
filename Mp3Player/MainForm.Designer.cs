@@ -29,7 +29,7 @@
 		private void InitializeComponent()
 		{
 			this.buttonPlayPause = new System.Windows.Forms.Button();
-			this.listViewMusicCollection = new System.Windows.Forms.ListView();
+			this.listViewMusicCollection = new Mp3Player.UI.ListViewWrapper();
 			this.splitContainer1 = new System.Windows.Forms.SplitContainer();
 			this.MainMenu = new System.Windows.Forms.MenuStrip();
 			((System.ComponentModel.ISupportInitialize)(this.splitContainer1)).BeginInit();
@@ -107,7 +107,7 @@
 		#endregion
 
 		private System.Windows.Forms.Button buttonPlayPause;
-		private System.Windows.Forms.ListView listViewMusicCollection;
+		private Mp3Player.UI.ListViewWrapper listViewMusicCollection;
 		private System.Windows.Forms.SplitContainer splitContainer1;
 		private System.Windows.Forms.MenuStrip MainMenu;
 	}

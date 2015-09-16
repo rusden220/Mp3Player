@@ -1,0 +1,4 @@
+D:\Den\Programming\C#\Mp3Player\LastFm\bin\Release\LastFm.dll
+D:\Den\Programming\C#\Mp3Player\LastFm\bin\Release\LastFm.pdb
+D:\Den\Programming\C#\Mp3Player\LastFm\obj\Release\LastFm.dll
+D:\Den\Programming\C#\Mp3Player\LastFm\obj\Release\LastFm.pdb
